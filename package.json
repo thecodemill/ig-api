@@ -1,5 +1,5 @@
 {
-  "name": "ig-api",
+  "name": "ig-connect",
   "version": "0.0.1",
   "description": "Barebones IG API wrapper based on fetch() and Lightstreamer",
   "main": "ig.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thecodemill/ig-api.git"
+    "url": "git+https://github.com/thecodemill/ig-connect.git"
   },
   "keywords": [
     "IG",
@@ -19,9 +19,9 @@
   "author": "Andrew Robinson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thecodemill/ig-api/issues"
+    "url": "https://github.com/thecodemill/ig-connect/issues"
   },
-  "homepage": "https://github.com/thecodemill/ig-api#readme",
+  "homepage": "https://github.com/thecodemill/ig-connect#readme",
   "dependencies": {
     "lightstreamer-client-node": "^8.0.5"
   }

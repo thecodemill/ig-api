@@ -5,13 +5,13 @@ A barebones IG API wrapper based on fetch() and Lightstreamer.
 ## Installation
 
 ```
-npm i ig-api
+npm i ig-connect
 ```
 
 ## Usage
 
 ```js
-import IG from 'ig-api';
+import IG from 'ig-connect';
 
 const demoMode = true;
 const ig = new IG('API_KEY', 'ACCOUNT_IDENTIFIER', 'ACCOUNT_PASSWORD', demoMode);
