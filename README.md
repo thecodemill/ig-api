@@ -16,7 +16,7 @@ import IG from 'ig-api';
 const demoMode = true;
 const ig = new IG('API_KEY', 'ACCOUNT_IDENTIFIER', 'ACCOUNT_PASSWORD', demoMode);
 
-# Abitrary Requests
+// Arbitrary Requests
 const positionsResponse = await ig.request(2, 'GET', '/positions');
 const { positions } = await positionsResponse.json();
 
@@ -25,8 +25,8 @@ const updatePositionResponse = await ig.request(2, 'PUT', `/positions/otc/{DEAL_
   stopLevel: 1.3456,
 });
 
-# Streaming Prices
-# 1. Initialise a streaming client
+// Streaming Prices
+// 1. Initialise a streaming client
 const streamer = await ig.streamer({
   serverError: (code, message) => {
     console.error('Server error', code, message);
@@ -41,7 +41,7 @@ const streamer = await ig.streamer({
   },
 }
 
-2. Subscribe to price updates stream
+// 2. Subscribe to price updates stream
 ig.stream(streamer, 'MERGE', ['MARKET:CS.D.EURUSD.TODAY.IP'], ['BID', 'OFFER'], {
   subscriptionError: (code, message) => {
     console.error('Subscription error', code, message);
