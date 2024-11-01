@@ -1,6 +1,6 @@
 {
   "name": "ig-connect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "Barebones IG API wrapper based on fetch() and Lightstreamer",
   "main": "ig.js",
